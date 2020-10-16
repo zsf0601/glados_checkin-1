@@ -4,6 +4,8 @@
 
 2、输入激活码`4MSZ9-1WFJ8-4TLKD-Q1A9Z`，进行激活，获得3天试用。
 
+3、点击签到可以增加一天
+
 **自动签到原理**
 
 1. github 的 actions 可以免费执行代码
@@ -25,9 +27,8 @@
 
 ![image](https://user-images.githubusercontent.com/23112609/96195429-536f5300-0f7f-11eb-9c97-bf35bfcfdca0.png)
 
-> 修改 frok 出项目的 `.github/workflows/python-publish.yml` 的 `cron` 表达式进行 `即时` 的测试
-
-![image](https://user-images.githubusercontent.com/23112609/96196969-494f5380-0f83-11eb-8386-a7a0553d687d.png)
+> 随意改下 readme 进行 push 触发 action
 
 > 在 fork 出项目下的 `actions` 查看运行历史日志来确认签到结果
 
+![image](https://user-images.githubusercontent.com/23112609/96226413-29408400-0fc5-11eb-9ef2-044aac8642e1.png)
