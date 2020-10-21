@@ -32,3 +32,7 @@
 > 在 fork 出项目下的 `actions` 查看运行历史日志来确认签到结果
 
 ![image](https://user-images.githubusercontent.com/23112609/96226413-29408400-0fc5-11eb-9ef2-044aac8642e1.png)
+
+> 在 action 页面, 选中 glados-checkin-for-http 可手动触发 workflow;
+
+![image](https://user-images.githubusercontent.com/23112609/96712912-6ac09d00-13d2-11eb-8f06-db18e5249a8e.png)
