@@ -15,11 +15,15 @@
 
 1. fork 此项目
 2. 在 fork 出的项目中设置 cookie
-3. 不做任何操作,即可在每天的 7.30 分进行自动签到
+3. 修改.github/workflows/auto-checkin.yml 中第10行 `cron 表达式` 并提交
+    - 15 * * * * 
+    - 16 16 * * *
+  
+[cron语法参考](https://docs.github.com/cn/free-pro-team@latest/actions/reference/events-that-trigger-workflows#%E8%AE%A1%E5%88%92)
 
 
 **帮助**
-> 打开chrom, 登录到 glados 控制台, 找到签到按钮, 按f12, 拿到cookie  
+> 打开 chrome, 登录到 glados 控制台, 找到签到按钮, 按 f12, 拿到 cookie  
 
 ![image](https://user-images.githubusercontent.com/23112609/96143045-50e80b80-0f35-11eb-8b84-61bcc2f2dac4.png)
 
@@ -27,12 +31,10 @@
 
 ![image](https://user-images.githubusercontent.com/23112609/96195429-536f5300-0f7f-11eb-9c97-bf35bfcfdca0.png)
 
-> 随意改下 readme 进行 push 触发 action
-
-> 在 fork 出项目下的 `actions` 查看运行历史日志来确认签到结果
-
-![image](https://user-images.githubusercontent.com/23112609/96226413-29408400-0fc5-11eb-9ef2-044aac8642e1.png)
-
-> 在 action 页面, 选中 glados-checkin-for-http 可手动触发 workflow;
+> 在 fork 出项目下的 `actions` 页面, 选中 `glados-checkin-for-http` 可手动触发 workflow;
 
 ![image](https://user-images.githubusercontent.com/23112609/96712912-6ac09d00-13d2-11eb-8f06-db18e5249a8e.png)
+
+> 在 fork 出项目下的 `actions` 页面, 查看运行历史日志来确认签到结果
+
+![image](https://user-images.githubusercontent.com/23112609/96226413-29408400-0fc5-11eb-9ef2-044aac8642e1.png)
